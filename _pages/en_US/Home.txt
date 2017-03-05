@@ -14,7 +14,7 @@ permalink: /index.html
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
