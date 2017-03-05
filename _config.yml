@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Guide"
+title                    : "Wii U Guide"
 title_separator          : "-"
 name                     : "Plailect & FlimFlam69"
 description              : "Full coldboothax CFW Guide"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Plailect"
   avatar           : "bio-photo.png"
-  bio              : "3DS Hacker"
+  bio              : "Wii U Hacker"
   location         : "Nullsec"
   email            : "Plailect@gmail.com"
   uri              :

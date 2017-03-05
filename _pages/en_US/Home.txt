@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Guide" #
+title: "Wii U Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -18,9 +18,6 @@ permalink: /index.html
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
-
-**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
-{: .notice--success}
 
 **Read all of the introductory pages before proceeding.**
 {: .notice--warning}
