@@ -10,7 +10,7 @@ These steps will prepare your SD card in preparation for installing coldboothax 
 Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
 {: .notice--info}
 
-Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will bee formatted this way by default.
+Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.
 {: .notice--info}
 
 Your SD card **cannot** be named `wiiu`, or it will cause problems.
