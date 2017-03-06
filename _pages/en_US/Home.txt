@@ -26,27 +26,22 @@ permalink: /index.html
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-Running homebrew on your console is 100% free using nothing but 
+Running homebrew on your console is 100% free using nothing but the system's browser.
 
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
+**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything hombebrew can do.
 
-CFW can be easily set up on any console that is on 11.2.0 or lower.
+CFW can be easily set up on any console in any region on the latest version.
 
 ## What does this guide install?
 
-This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to arm9loaderhax powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
-
-Arm9loaderhax is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii.
-
-The benefits of arm9loaderhax over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools).
+This guide has the end goal of taking a completely unmodified Wii U from stock
+firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
 
 ## What can I do with Custom Firmware?
 
 + Play all game cards and eShop games, regardless of region
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/) and [badges](https://badges.3dsthem.es/)
 + Use "ROM hacks" for games that you own
 + Take gameplay and application screenshots
 + [Backup, edit, and restore](https://gbatemp.net/threads/release-jks-savemanager-homebrew-cia-save-manager.413143/) saves for many games
