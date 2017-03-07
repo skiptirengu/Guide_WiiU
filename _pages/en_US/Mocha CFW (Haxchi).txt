@@ -16,6 +16,7 @@ Haxchi is an exploit that allows us to launch Mocha CFW directly from the home m
 You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploiotable games. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
+
 #### What you need
 
 + A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
@@ -23,6 +24,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
   + Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD)
   + If you've had Brain Age/ Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
   + The game will not be playable after this process
+  + **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy!**
 
 | Compatible Haxchi Games |
 | ------------- |
@@ -51,17 +53,18 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 
 #### Instructions
 
-##### Section I - Installing Mocha CFW
+##### Section I - Configuring Mocha CFW
 
 1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
 2. Put your SD card from your Wii U into your computer
 3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
 4. Reinsert your SD card into your Wii U
 5. Launch the Haxchi Installer
-6. Select the DS virtual console game you are installing haxchi onto, then press (A) to install
-7. Once this is complete, launch your Haxchi DS virtual console game
-8. The Mocha CFW configuration menu should load
-9. Use the (A) button and the D-Pad to set the following:
+6. Select the DS virtual console game you are installing haxchi onto, then press (A) to select it
+7. Read the warning that appears, then press (A) to install
+8. Once this is complete, launch your Haxchi DS virtual console game
+9. The Mocha CFW configuration menu should load
+10. Use the (A) button and the D-Pad to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -71,17 +74,17 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-10. Press (A) to confirm and exit
-11. Your Wii U should display a black screen; this is the RedNAND setup
-12. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+11. Press (A) to confirm and exit
+12 Your Wii U should display a black screen; this is the RedNAND setup
+13. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-13. Once this process is completed, your Wii U will end up on a black screen
+14. Once this process is completed, your Wii U will end up on a black screen
   + This is normal; the SD card has been formatted
-14. Put your SD card from your Wii U into your computer
+15. Put your SD card from your Wii U into your computer
   + Your SD card will have significantly less space on it now because the RedNAND is occupying a hidden partition on it
-15. Copy all of the files you backed up back to your SD card
-16. Reinsert your SD card into your Wii U
-17. Power on your Wii U
+16. Copy all of the files you backed up back to your SD card
+17. Reinsert your SD card into your Wii U
+18. Power on your Wii U
 
 ##### Section II - Launching Mocha CFW
 
@@ -100,5 +103,8 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
 {: .notice--info}
 
-Continue to []() 
+If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
+{: .notice--warning}
+
+Continue to [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
 {: .notice--primary}
