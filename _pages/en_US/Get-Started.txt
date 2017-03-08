@@ -10,7 +10,7 @@ These steps will prepare your SD card in preparation for installing coldboothax 
 Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
 {: .notice--info}
 
-Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be atleast 16gb in size.
 {: .notice--info}
 
 Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.
@@ -27,7 +27,9 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 #### What you need
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`](images/config.txt) *(right click -> save as)*
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * The latest release of [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/releases/latest)
 * The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
@@ -57,8 +59,10 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 14. Copy and merge the _the contents of_ the WUPhax `.zip` to the root of your SD card
 15. Copy and merge the _the contents of_ the saviine `.zip` to the root of your SD card
 16. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-17. Reinsert your SD card into your Wii U
-18. Power on your Wii U
+17. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
+18. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+19. Reinsert your SD card into your Wii U
+20. Power on your Wii U
 
 ___
 

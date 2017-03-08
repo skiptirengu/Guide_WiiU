@@ -91,6 +91,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 1. Create a folder on the first page of your home menu named "SysNAND"
 2. Go to the System Settings and delete every network connection
   + This will prevent your SysNAND from ever getting updated
+  + **This is REQUIRED as the Wii U's suspend mode will use the internet settings from SysNAND**
 3. Launch your Haxchi DS virtual console game
 4. If the exploit was successful, you will launch Mocha CFW with RedNAND
   + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
@@ -102,6 +103,17 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
 {: .notice--info}
+
+{% capture notice-1 %}
+**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+
+    + None -> Boots into Mocha CFW with RedNAND
+    + (A) -> Boots into the Homebrew Launcher on SysNAND
+    + (X) -> Boots into the disc2app on SysNAND
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
 {: .notice--warning}
