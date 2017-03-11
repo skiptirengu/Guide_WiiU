@@ -1,33 +1,33 @@
 ---
 title: "Homebrew Launcher" #
-lang: en
-permalink: /homebrew-launcher.html
+lang: zh_TW
+permalink: /zh_TW/homebrew-launcher.html
 ---
 
-The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 {: .notice}
 
-We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
+我們將透過 Wii U 的內建網頁瀏覽器啟動它，也就是說你的 Wii U 需要可以連網才能繼續。
 {: .notice--info}
 
-#### Instructions
+#### 操作說明
 
-1. Launch the browser on your device
-2. Go to the browser settings and select "Reset Save Data"
-  + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
-3. Return to the browser
-4. Go to `http://loadiine.ovh`
-  + You may want to bookmark this address to save time on typing in the future
-5. Ensure that the drop down box shows "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", then press "Submit"
-  + This may take many tries
-  + If it freezes, just force the console to power off by holding the power button, then try again
-6. Your console should load the Homebrew Launcher
+1. 開啟你裝置上的網頁瀏覽器
+2. 到瀏覽器設定中選擇「Reset Save Data」（清除儲存資料）
+  + 這將確保網頁瀏覽器漏洞能正常運行
+  + 這將刪除所有已儲存的資料，包括設定、瀏覽紀錄、及書籤
+3. 返回至瀏覽器中
+4. 前往 `http://loadiine.ovh`
+  + 你可以將本網址設為書籤，這樣未來要使用時較方便
+5. 請確保下拉選單中顯示的是「Homebrew Launcher 1.4 (5.5.0 - 5.5.1)」，並按下「送出」
+  + 可能需要嘗試多次
+  + 如果當機的話，按住電源紐強制重啟你的裝置在試一次即可
+6. 你的主機應該就會啟動 Homebrew Launcher 了
 
 ___
 
-If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
+如果你比較想透過購買有漏洞的遊戲來在開機時自動啟動自製韌體*（或者你已經擁有列表中所列的 DS Virtual Console 遊戲）*的話，請繼續至 [Mocha CFW (Haxchi)](mocha-cfw-(haxchi))。
 {: .notice--primary}
 
-If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
+如果你比較想省錢一點，每次開機時手動進入自製韌體，請繼續至 [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher))。
 {: .notice--primary}
