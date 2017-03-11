@@ -25,16 +25,16 @@ permalink: /es_ES/faq.html
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
 **A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+<a name="faq_homebrew" />**P:** *¿Puedo usar esto para correr homebrew y emuladores?*    
 **A:** Yes! Mocha CFW + RedNAND not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
 
 <a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
 **A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
 
-<a name="faq_updates" />**Q:** *Is it safe to update RedNAND?*    
+<a name="faq_updates" />**P:** *¿Es seguro actualizar RedNAND?*    
 **A:** Yes.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
+<a name="faq_support" />**P:** *¿A dónde debería ir para pedir ayuda?*    
 **R:** Puedes pedir ayuda (en inglés) en [#wiiuhacks en Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) o en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).  
 
 <a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
@@ -43,5 +43,5 @@ permalink: /es_ES/faq.html
 <a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
 **A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+<a name="faq_nopc" />**P:** *¿Puedo realizar este proceso sin una computadora (Ej: an Android phone)?*    
 **A:** All you need is the ability to put files on an SD card!
