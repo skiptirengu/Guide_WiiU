@@ -45,7 +45,7 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
 14. Reinsert your SD card into your Wii U
 17. Power on your Wii U
 
-##### Section II - Launching Mocha CFW
+##### Sección II - Iniciando Mocha CFW
 
 1. Create a folder on the first page of your home menu named "SysNAND"
 2. Go to the System Settings, then internet, then press (X) to display your current network connections
