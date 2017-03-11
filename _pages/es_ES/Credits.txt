@@ -1,7 +1,7 @@
 ---
 title: "Créditos" #
 lang: en
-permalink: /credits.html
+permalink: /es_ES/credits.html
 ---
 
 If we forgot you here, contact us and we'll add your name.
