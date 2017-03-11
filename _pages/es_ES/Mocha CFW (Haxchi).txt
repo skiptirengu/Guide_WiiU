@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Haxchi)" #
 lang: en
-permalink: /mocha-cfw-(haxchi).html
+permalink: /es_ES/mocha-cfw-(haxchi).html
 ---
 
 Mocha CFW is a custom firmware that patches signature checks and boots RedNAND.
@@ -17,7 +17,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 {: .notice--primary}
 
 
-#### What you need
+#### Qué necesitas
 
 + A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
   + Do **not** install the DS virtual console game to a USB stick
@@ -51,7 +51,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-#### Instructions
+#### Instrucciones
 
 ##### Section I - Configuring Mocha CFW
 
