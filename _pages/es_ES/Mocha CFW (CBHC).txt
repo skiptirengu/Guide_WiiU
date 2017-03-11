@@ -24,7 +24,7 @@ This page is optional. Regular Haxchi works just fine as is; this just offers ex
 1. Reboot your console to be sure that you are on SysNAND.
   + You should see the SysNAND folder on the first page of your home menu
 2. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-3. Launch the CBHC installer
+3. Inicia el CBHC Installer
 4. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
   + **This game MUST already have a functional Haxchi installed**
 5. Read the warning that appears, then press (A) to install
