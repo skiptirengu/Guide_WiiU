@@ -13,43 +13,43 @@ Você não pode usar o disc2app na RedNAND para descarregar o jogo, mas pode ins
 {% capture notice-2 %}
 **Se você planeja usar um disco rígido externo para instalar os seus discos descarregados, observe o seguinte:**
 
-    + You cannot use the same hard drive for vWii and Wii U games.
-    + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + Você não pode usar o mesmo disco rígido para os jogos de vWii e Wii U.
+    + Formatar um disco rígido para ser compatível com o Wii U irá apagar todo o seu conteúdo.
+    + Se você estiver usando um HD externo que não tem fonte de energia própria, você precisará de um [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+Se você planeja usar um disco rígido externo para instalar seus discos descarregados, observe que o Wii U pode utilizar apenas 2tb de um disco rígido externo, mesmo se a unidade tiver uma capacidade maior.
 {: .notice--info}
 
-#### What you need
+#### O que você precisa
 
-* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
-* 25gb of free space on your SD card
+* Um cartão SD que possua uma RedNAND e todos os arquivos de [Início](get-started) nele
+* 25gb de espaço livre no seu cartão SD
 
-#### Instructions
+#### Instruções
 
-##### Section I - Formatting external drive
+##### Seção I - Formatando o drive externo
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+Se você planeja usar um disco rígido externo para instalar seus discos descarregados, siga esta seção.
 {: .notice--info}
 
-If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+Se você não planeja usar um disco rígido externo ou já possui um disco rígido formatado para o Wii U, pule esta seção.
 {: .notice--info}
 
-Note that this will completely erase the contents of the external hard drive!
+Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 {: .notice--danger}
 
-1. Plug your USB HDD into your Wii U while it is powered off
-2. Power on your Wii U
-3. Format the external hard drive when prompted
+1. Conecte seu HD USB no seu Wii U enquanto ele estiver desligado
+2. Ligue seu Wii U
+3. Formate o disco rígido externo quando solicitado
 
-##### Section II - Launching disc2app on SysNAND
+##### Seção II - Executando o disc2app na SysNAND
 
-1. Remove any disc that currently may be in the Wii U disc drive
-2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+1. Remova qualquer disco que esteja no drive de disco do Wii U
+2. Execute o disc2app na SysNAND usando o método adequado para a sua instalação do Mocha CFW:
 
 ###### CBHC
 
