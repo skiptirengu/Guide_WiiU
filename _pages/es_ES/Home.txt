@@ -20,7 +20,7 @@ permalink: /es_ES/index.html
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
+**¡Esta guía necesita de *tu* ayuda para [traducirla](https://translate.wiiu.guide/) a otros idiomas!**
 {: .notice--success}
 
 **Lee todas las páginas de introducción antes de proceder.**
@@ -46,18 +46,18 @@ a Coldboot Haxchi ejecutando el Custom Firmware Mocha. Se utiliza homebrew como 
 ## ¿Qué puedo hacer con Custom Firmware?
 
 + Jugar a todos los juegos disponibles, en formato físico o de la eShop, independiente de su región
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your home menu
-+ Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
+Respaldar, editar y restaurar partidas guardadas de muchos juegos
++ Emular juegos de sistemas antiguos con varios emuladores, mediante RetroArch u otros emuladores independientes.
++ Instalar títulos homebrew en tu sistema y hacer que aparezcan en el Menú HOME
++ Respaldar tus juegos en formato físico a un formato que puedas instalar y jugar sin necesidad del mismo
++ Actualizar de forma segura a la última versión del sistema sin miedo a perder acceso a homebrew
 
 ## ¿Qué necesito saber antes de empezar?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the latest version.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage
++ **Antes de comenzar la guía, debes conocer los riesgos de hackear la Wii U: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
++ Esta guia funcionará en todas las Wii U de todas las regiones en la última versión.
++ Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (juegos, NNID, datos de guardado, etc se conservarán).
++ El proceso de creación de la RedNAND puede llevar **varias** horas para consolas que hayan usado mucha memoria interna
 
 + Tu tarjeta SD debería ser [MBR, no GPT](http://www.howtogeek.com/245610/).
 + Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
