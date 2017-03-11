@@ -1,17 +1,17 @@
 ---
 title: "disc2app" #
-lang: en
-permalink: /disc2app.html
+lang: pt-BR
+permalink: /pt_BR/disc2app.html
 ---
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Isso permitirá que você descarregue seus discos para um formato que você possa instalá-los, com a finalidade de jogá-los, sem a necessidade do disco.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+Você não pode usar o disc2app na RedNAND para descarregar o jogo, mas pode instalar um jogo descarregado na RedNAND. As instruções refletem isso.
 {: .notice--info}
 
 {% capture notice-2 %}
-**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+**Se você planeja usar um disco rígido externo para instalar os seus discos descarregados, observe o seguinte:**
 
     + You cannot use the same hard drive for vWii and Wii U games.
     + Formatting an external hard drive for use with a Wii U will erase its contents.
