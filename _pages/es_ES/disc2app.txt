@@ -11,10 +11,10 @@ No puedes utilizar disc2app en RedNAND para volcar el juego, pero si puedes inst
 {: .notice--info}
 
 {% capture notice-2 %}
-**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+**Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:**
 
-    + You cannot use the same hard drive for vWii and Wii U games.
-    + Formatting an external hard drive for use with a Wii U will erase its contents.
+    + No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
+    + Formatear el disco duro externo para usarlo en la Wii U eliminará todo su contenido.
     + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
@@ -54,7 +54,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 ###### CBHC
 
 1. Apaga tu Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
+2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
 3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en SysNAND
 4. Inicia disc2app
 
@@ -64,32 +64,32 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-2. Launch disc2app
+1. Entra en el Homebrew Launcher en la SysNAND usando `http://loadiine.ovh`
+2. Inicia disc2app
 
 ##### Sección II - Usando disc2app
 
-1. Press (A) to dump to the SD card
-2. Insert the disc you want to dump when prompted
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+1. Presiona (A) para volcar a la tarjeta SD
+2. Inserta el disco que quieres volcar cuando se te pida
+3. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
+3. Cuando haya finalizado, se regresará al Menú HOME de la SysNAND
+  + Los usuarios de CBHC, por otro lado, podrían haber sido retornados a RedNAND
 
 ##### Sección III - Instalar el juego volcado
 
-1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
+1. Inicia RedNAND utilizando tu método preferido
+2. Inicia el Homebrew Channel en RedNAND para entrar al Homebrew Launcher
 3. Inicia WUP Installer - Mod Y
-4. Install the game to your desired destination
-  + Press (A) to install to the system memory
-  + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+4. Instala el juego en una ubicación de tu preferencia
+  + Presiona (A) para instalar en la memoria del sistema
+  + Presiona (X) para instalar en el disco duro externo
+5. Deja que el proceso acabe automáticamente puesto que podría llevar algo de tiempo
+6. Cuando haya finalizado, se regresará al Homebrew Launcher
+7. Presiona (Home) para volver al Menú HOME de RedNAND
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+Para liberar espacio en tu tarjeta SD utilizado por el volcado del disco, elimina la nueva carpeta creada llamada `/install/` en tu tarjeta SD
 {: .notice--info}
 
 If everything went well, you'll see your new game installed on the menu ready to be played!
