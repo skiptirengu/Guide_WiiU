@@ -36,16 +36,16 @@ Ejecutar homebrew en tu consola es 100% gratuito usando nada más que el navegad
 
 **Custom Firmware** ("CFW") te permite utilizar hacks más avanzados que el homebrew en el espacio del usuario no pueden utilizar fácilmente.
 
-CFW can be easily set up on any console in any region on the latest version.
+Un CFW puede configurarse fácilmente en cualquier consola en la última versión.
 
 ## ¿Qué se instalará con esta guía?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+El propósito final de esta guía es tomar una Wii U sin modificar, desde el firmware original
+a Coldboot Haxchi ejecutando el Custom Firmware Mocha. Se utiliza homebrew como un punto de apoyo, pero el Custom Firmware continúa siendo la meta a alcanzar.
 
 ## ¿Qué puedo hacer con Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
++ Jugar a todos los juegos disponibles, en formato físico o de la eShop, independiente de su región
 + Backup, edit, and restore saves for many games
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
 + Install homebrew titles to your system, and have them appear on your home menu
