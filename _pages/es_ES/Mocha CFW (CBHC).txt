@@ -19,7 +19,7 @@ This page is optional. Regular Haxchi works just fine as is; this just offers ex
 **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!**
 {: .notice--danger}
 
-#### Instructions
+#### Instrucciones
 
 1. Reboot your console to be sure that you are on SysNAND.
   + You should see the SysNAND folder on the first page of your home menu
