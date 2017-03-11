@@ -10,12 +10,12 @@ header:
   caption:
 
 excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
-lang: en
+lang: es
 permalink: /es_ES/index.html
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!**
+**¡Esta guía es para sólo consolas retail (compradas en tiendas), no para consolas del Nintendo Developer Program!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
@@ -23,18 +23,18 @@ permalink: /es_ES/index.html
 **This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
 {: .notice--success}
 
-**Read all of the introductory pages before proceeding.**
+**Lee todas las páginas de introducción antes de proceder.**
 {: .notice--warning}
 
 ## ¿Qué es Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. Esto te permite ejecutar varios juegos caseros, herramientas para editar y respaldar partidas y emuladores de varios sistemas antiguos.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Ejecutar homebrew en tu consola es 100% gratuito usando nada más que el navegador de internet de la consola.
 
 ## ¿Qué es Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") te permite utilizar hacks más avanzados que el homebrew en el espacio del usuario no pueden utilizar fácilmente.
 
 CFW can be easily set up on any console in any region on the latest version.
 
@@ -59,5 +59,5 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage
 
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Tu tarjeta SD debería ser [MBR, no GPT](http://www.howtogeek.com/245610/).
++ Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
