@@ -21,7 +21,7 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
 2. Put your SD card from your Wii U into your computer
 3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
 4. Reinsert your SD card into your Wii U
-5. Launch Mocha CFW
+5. Inicia Mocha CFW
 6. The Mocha CFW configuration menu should load
 7. Use the (A) button and the D-Pad to set the following:
   + Config view mode: **expert**
@@ -59,7 +59,7 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
   + These servers will block your SysNAND from being updated
 4. Return to the home menu
 5. Launch the Homebrew Launcher using the browser
-6. Launch Mocha CFW
+6. Inicia Mocha CFW
 7. If the exploit was successful, you will launch Mocha CFW with RedNAND
   + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
 
