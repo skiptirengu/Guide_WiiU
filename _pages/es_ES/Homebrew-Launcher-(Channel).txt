@@ -1,13 +1,13 @@
 ---
 title: "Homebrew Launcher (Channel)" #
 lang: en
-permalink: /homebrew-launcher-(channel).html
+permalink: /es_ES/homebrew-launcher-(channel).html
 ---
 
 This will install the Homebrew Channel on RedNAND so you no longer need the web browser to launch the Homebrew Launcher.
 {: .notice--info}
 
-#### Instructions
+#### Instrucciones
 
 1. Enter the Homebrew Launcher on RedNAND using `http://loadiine.ovh`
 2. Launch WUP Installer - Mod Y
