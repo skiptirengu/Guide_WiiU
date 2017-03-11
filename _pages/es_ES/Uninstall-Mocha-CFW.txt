@@ -12,7 +12,7 @@ Games and saves are saved to the internal memory not the SD card. This means all
 
 #### Instrucciones
 
-##### Section I - Removal from Wii U
+##### Sección I - Eliminar de la Wii U
 
 ###### CBHC
 
