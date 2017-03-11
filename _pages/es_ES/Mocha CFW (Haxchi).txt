@@ -53,7 +53,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 
 #### Instrucciones
 
-##### Section I - Configuring Mocha CFW
+##### Sección I - Configurando Mocha CFW
 
 1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
 2. Put your SD card from your Wii U into your computer
@@ -86,7 +86,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 17. Reinsert your SD card into your Wii U
 18. Power on your Wii U
 
-##### Section II - Launching Mocha CFW
+##### Sección II - Iniciando Mocha CFW
 
 1. Create a folder on the first page of your home menu named "SysNAND"
 2. Go to the System Settings and delete every network connection
