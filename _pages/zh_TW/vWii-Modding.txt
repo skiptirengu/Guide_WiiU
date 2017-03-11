@@ -1,121 +1,121 @@
 ---
-title: "vWii Modding" #
-lang: en
-permalink: /vwii-modding.html
+title: "vWii 改機" #
+lang: zh-Hant
+permalink: /zh_TW/vwii-modding.html
 ---
 
-This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+本章節將教你如何安裝 Homebrew Channel 及其他 Wii U 的虛擬 Wii（vWii）相關的改機。
 {: .notice--info}
 
-#### Instructions
+#### 操作說明
 
-##### Section I - Entering Homebrew Launcher on SysNAND
+##### 第一節 － 進入 SysNAND 上的 Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using the method for your Mocha CFW installation:
+1. 依據你的 Mocha CFW 安裝方式於 SysNAND 上進入 Homebrew Launcher：
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. 關閉你的 Wii U
+2. 於開機時按住「Home」鍵進入 CBHC 開機選單
+3. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
 
 ###### Haxchi
 
-1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
+1. 在啟動你的 DS Virtual Console 遊戲時，按住「A」鍵將於 SysNAND 上啟動 Homebrew Launcher
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+1. 透過 `http://loadiine.ovh`於 SysNAND 上啟動 Homebrew Launcher
 
-##### Section II - wuphax
+##### 第二節 — wuphax
 
-1. Launch wuphax
-2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
-3. You will be returned to the Homebrew Launcher on SysNAND
-4. Use the (Home) button to exit to the home menu
-5. Launch vWii
-6. Launch the vWii Mii Channel
-7. If the exploit was successful, you will have entered the Hackmii Installer
-8. Read the scam warning, then press (1) to continue when prompted
-9. Go through the prompts on screen to install the Homebrew Channel to vWii
-10. Go through the prompts to get back to vWii
-11. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
-12. Return to the home menu, then power off your Wii U
-13. Enter the Homebrew Launcher on SysNAND using the method from Section I
-14. Launch wuphax
-15. Press (B) when prompted to restore the Mii Channel
-16. Go through the prompts to get back to vWii
+1. 啟動 wuphax
+2. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
+3. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
+4. 按下「Home」鍵以退出至 HOME 主選單
+5. 啟動 vWii
+6. 啟動 vWii Mii 頻道
+7. 如果漏洞順利執行，你將會進入 Hackmii Installer 中
+8. 讀完警示，並於提示時按下「1」繼續
+9. 依照顯示的步驟來安裝 Homebrew Channel 至 vWii 上
+10. 照步驟跑完回至 vWii 中
+11. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
+12. 回到主選單中，並將你的 Wii U 關機
+13. 根據第一節的方式於 SysNAND 上進入 Homebrew Launcher
+14. 啟動 wuphax
+15. 當提示時，按下「B」鍵還原 Mii 頻道
+16. 照步驟跑完回至 vWii 中
 
-##### Section III - Dumping vWii NAND
+##### 第三節 － 拷貝 vWii NAND
 
-This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+未來如果你的 vWii 出了任何問題的話，此 NAND 備份將它還原至正常狀態。
 {: .notice--info}
 
-1. Launch the Homebrew Channel on vWii
-2. Launch Dump Mii NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
-3. When it has completed, your Wii U will reboot automatically
-4. Power off your Wii U
-5. Put your SD card from your Wii U into your computer
-6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
-7. Delete `nand.bin` and `keys.bin` from the root of your SD card
+1. 於 vWii 上啟動 Homebrew Channel
+2. 啟動 Dump Mii NAND
+  + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的 SD 卡速度而定，有可能會到數小時）
+3. 當備份完成後，你的 Wii U 將自動重啟
+4. 關閉你的 Wii U
+5. 將 Wii U 中的 SD 卡插入至電腦中
+6. **從你 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方（像是雲端硬碟）；此備份將會在你未來玩壞 vWii 時救你一命**
+7. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
 
-##### Section IV - cIOS Installation
+##### 第四節 － cIOS 安裝
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+請確保 SD 卡根目錄底下沒有名為 `wad` 或 `wads` 的資料夾，並確保除了 `/apps/` 之外沒有任何其他的 `.wad` 檔案在 SD 卡中。
 {: .notice--warning}
 
-1. Get into the Homebrew Channel on vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
-  + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
-2. Launch d2x cIOS Installer
-3. Set the options on the top of the screen to match the following:
+1. 於 vWii 上啟動 Homebrew Channel
+  + Haxchi 及 Homebrew Launcher Mocha CFW 的使用這可以在 SysNAND 下，透過選擇 HOME 主選單選擇 vWii，並啟動 Homebrew Channel
+  + CBHC Mocha CFW 使用者可以在開機時按住「B」鍵，並選擇「Boot vWii Homebrew Channel」
+2. 啟動 d2x cIOS Installer
+3. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
-4. Press (A) to install
-5. Wait for the install to complete, then press (A) to continue
-6. Set the options on the top of the screen to match the following:
+4. 按「A」鍵安裝
+5. 等待安裝完畢，並按下「A」鍵繼續
+6. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
-7. Press (A) to install
-8. Wait for the install to complete, then press (A) to continue
-9. Set the options on the top of the screen to match the following:
+7. 按「A」鍵安裝
+8. 等待安裝完畢，並按下「A」鍵繼續
+9. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
-10. Press (A) to install
-11. Wait for the install to complete, then press (B) to exit
+10. 按「A」鍵安裝
+11. 等待安裝完畢，並按下「B」鍵離開
 
-##### Section V - Patching IOS80
+##### 第五節 － 修改 IOS80
 
-**This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
+**如果本節出了任何差錯（跳電...等），你的 vWii 將會磚機而得要你還原先前備份的 vWii 才能恢復運作。 請在確保你已經先備份完畢再行繼續。**
 {: .notice--danger}
 
-1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
-2. Read the warning, then wait 30 seconds for it to allow you to continue
-3. Press (A) to install
-  + This should be very quick
-4. When it has completed, press any button to return to the Homebrew Channel
-5. Exit to the vWii Menu
+1. 從 vWii 的 Homebrew Channel 中啟動 vWii 的 Patched IOS80 Installer
+2. 讀完警示，並稍待 30 秒直到安裝程式讓你繼續為止
+3. 按「A」鍵安裝
+  + 這應該很快
+4. 完成後，按下任一按鈕回至 Homebrew Channel 中
+5. 退出至 vWii 選單中
 
 ___
 
-You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
+現在你可以安裝並使用任何 Wii 的自製程式像是 USB Loader GX、Wiiflow、CFG USB Loader、模擬器...等等。
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+外接硬碟一定得接到 Wii U 後端的 USB 才能在 vWii 中使用。 這不能跟你裝 Wii U 遊戲的硬碟互相共用。 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 {: .notice--info}
 
-Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+請先確保你所裝的 `.wad` 檔案（頻道、遊戲...等）是[可與 vWii 相容的格式](https://gbatemp.net/threads/340226/)。 如果你所裝的 `.wad` 檔案是給一般 Wii 所使用的格式的話，你將會使你的 vWii 磚機，且將需要還原先前的備份才能恢復運作。
 {: .notice--danger}
 
-Installing custom themes on vWii will brick your vWii.
+在 vWii 上安裝自訂主題將會使你的 vWii 磚機。
 {: .notice--danger}
 
-Removing `.wad` files manually without knowing what you are doing will brick your vWii.
+擅自手動移除 `.wad` 檔案將有可能使你的 vWii 磚機。
 {: .notice--danger}
 
-Installing Priiloader will brick your vWii.
+在 vWii 上安裝 Priiloader 將會使你的 vWii 磚機。
 {: .notice--danger}
