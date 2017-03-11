@@ -1,13 +1,13 @@
 ---
 title: "vWii Modding" #
 lang: en
-permalink: /vwii-modding.html
+permalink: /es_ES/vwii-modding.html
 ---
 
 This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
 {: .notice--info}
 
-#### Instructions
+#### Instrucciones
 
 ##### Section I - Entering Homebrew Launcher on SysNAND
 
@@ -27,7 +27,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 
 1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
 
-##### Section II - wuphax
+##### Sección II - wuphax
 
 1. Launch wuphax
 2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
@@ -60,7 +60,7 @@ This NAND backup will allow you to restore your vWii to a working state if anyth
 6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
 7. Delete `nand.bin` and `keys.bin` from the root of your SD card
 
-##### Section IV - cIOS Installation
+##### Sección IV - Instalación de cIOS
 
 Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
 {: .notice--warning}
