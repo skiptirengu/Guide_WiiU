@@ -1,7 +1,7 @@
 ---
 title: "F3 (Linux)" #
 lang: en
-permalink: /f3-(linux).html
+permalink: /es_ES/f3-(linux).html
 ---
 
 This page will walk you through the process of checking your SD card for errors using F3.
@@ -13,11 +13,11 @@ Depending on the size of your SD card and the speed of your computer, this proce
 This page is for Linux users only. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3X (Mac)](f3x-(mac)) pages.
 {: .notice--info}
 
-#### What you need
+#### Qué necesitas
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Instructions
+#### Instrucciones
 
 1. Unzip the F3 `.zip` file
 2. `cd` into the F3 directory
