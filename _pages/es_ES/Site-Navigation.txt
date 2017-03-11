@@ -1,5 +1,5 @@
 ---
-title: "Site Navigation" #
+title: "Navegación del Sitio" #
 lang: en
 permalink: /site-navigation.html
 layout: single-no-ads
