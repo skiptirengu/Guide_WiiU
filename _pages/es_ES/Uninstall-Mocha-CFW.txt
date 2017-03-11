@@ -1,7 +1,7 @@
 ---
 title: "Desinstalar Mocha CFW" #
 lang: en
-permalink: /uninstall-mocha-cfw.html
+permalink: /es_ES/uninstall-mocha-cfw.html
 ---
 
 This will remove Mocha CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
@@ -36,7 +36,7 @@ Games and saves are saved to the internal memory not the SD card. This means all
 
 1. Remove the bookmark from the Wii U's internet browser if you made one
 
-##### Section II - Removal from SD Card
+##### Sección II - Eliminar de la tarjeta SD
 
 {% capture notice-3 %}
 **Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
