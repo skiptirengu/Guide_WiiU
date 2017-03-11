@@ -1,6 +1,6 @@
 ---
 title: "Get Started" #
-lang: en
+lang: es
 permalink: /es_ES/get-started.html
 ---
 
