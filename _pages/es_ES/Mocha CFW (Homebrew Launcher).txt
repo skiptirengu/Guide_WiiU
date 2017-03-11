@@ -13,7 +13,7 @@ RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's i
 In order to boot the patched signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
 {: .notice--info}
 
-#### Instructions
+#### Instrucciones
 
 ##### Section I - Configuring Mocha CFW
 
