@@ -1,23 +1,23 @@
 ---
-title: "vWii Modding" #
-lang: en
-permalink: /vwii-modding.html
+title: "Modding do vWii" #
+lang: pt-BR
+permalink: /pt_BR/vwii-modding.html
 ---
 
-This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+Isso permitirá que você instale o Homebrew Channel e outras modificações para vWii do Wii U (Wii virtual).
 {: .notice--info}
 
-#### Instructions
+#### Instruções
 
-##### Section I - Entering Homebrew Launcher on SysNAND
+##### Seção I - Entrando no Homebrew Launcher na SysNAND
 
-1. Enter the Homebrew Launcher on SysNAND using the method for your Mocha CFW installation:
+1. Entre no Homebrew Launcher pela SysNAND utilizando o método para sua instalação do Mocha CFW:
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. Desligue o seu Wii U
+2. Segure (Home) na inicialização para entrar no menu de inicialização do CBHC
+3. Selecione "Boot Homebrew Launcher" para entrar no Homebrew Launcher pela SysNAND
 
 ###### Haxchi
 
