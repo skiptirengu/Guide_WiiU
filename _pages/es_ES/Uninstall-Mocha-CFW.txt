@@ -1,6 +1,6 @@
 ---
 title: "Desinstalar Mocha CFW" #
-lang: en
+lang: es
 permalink: /es_ES/uninstall-mocha-cfw.html
 ---
 
