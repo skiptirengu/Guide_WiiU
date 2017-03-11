@@ -5,7 +5,7 @@ permalink: /es_ES/donations.html
 layout: single-no-ads
 ---
 
-## If you appreciate this guide, we (Plailect and FlimFlam69) accept donations.
+## Si aprecias esta guía, nosotros (Plailect y FlimFlam69) aceptamos donaciones.
 {: .text-center}
 {: .notice--success}
 
