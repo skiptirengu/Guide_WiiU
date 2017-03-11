@@ -23,8 +23,8 @@ sitemap: false
 + [Mocha CFW (CBHC)[(mocha-cfw-(cbhc))
 + [Mocha CFW (Haxchi)](mocha-cfw-(haxchi))
 + [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher))
-+ [Uninstall Mocha CFW](uninstall-mocha-cfw)
-+ [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [Desinstalar o Mocha CFW](uninstall-mocha-cfw)
++ [Modding do vWii](vwii-modding)
++ [Por que anúncios?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
