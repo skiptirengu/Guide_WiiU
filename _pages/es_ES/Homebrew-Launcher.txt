@@ -12,7 +12,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 
 #### Instrucciones
 
-1. Launch the browser on your device
+1. Inicia el navegador de tu consola
 2. Go to the browser settings and select "Reset Save Data"
   + This will prevent issues with the browser exploit
   + This will also delete all save data including settings, history, and bookmarks
