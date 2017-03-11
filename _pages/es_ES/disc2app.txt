@@ -4,10 +4,10 @@ lang: es
 permalink: /es_ES/disc2app.html
 ---
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Esto te permitirá volcar tus discos a un formato que puedas instalar con el fin de jugar sin necesidad de tener el disco.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+No puedes utilizar disc2app en RedNAND para volcar el juego, pero si puedes instalar el juego volcado en RedNAND. Las instrucciones reflejan esto.
 {: .notice--info}
 
 {% capture notice-2 %}
@@ -15,52 +15,52 @@ You cannot use disc2app on RedNAND to dump the game, but you can install the dum
 
     + You cannot use the same hard drive for vWii and Wii U games.
     + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+Si planeas utilizar un disco duro externo para instalar tus discos volcados, ten en cuenta que la Wii U sólo puede utilizar hasta 2tb de un disco duro externo, incluso si es de mayor capacidad.
 {: .notice--info}
 
 #### Qué necesitas
 
-* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
-* 25gb of free space on your SD card
+* Una tarjeta SD que ya contenga una RedNAND y todos los archivos de la página [Comencemos](get-started) en ella
+* Se requieren 25gb disponibles en tu tarjeta SD
 
 #### Instrucciones
 
-##### Section I - Formatting external drive
+##### Sección I - Formatear el disco externo
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+Si planeas utilizar un disco duro externo para instalar tus discos volcados, sigue esta sección.
 {: .notice--info}
 
-If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii U, salta esta sección.
 {: .notice--info}
 
-Note that this will completely erase the contents of the external hard drive!
+¡Ten en cuenta que esto borrará completamente el contenido del disco duro externo!
 {: .notice--danger}
 
-1. Plug your USB HDD into your Wii U while it is powered off
-2. Power on your Wii U
-3. Format the external hard drive when prompted
+1. Conecta tu HDD USB en tu Wii U mientras está apagada
+2. Enciende tu Wii U
+3. Formatea el disco duro externo cuando se te pida
 
-##### Section II - Launching disc2app on SysNAND
+##### Sección II - Iniciar disc2app en SysNAND
 
-1. Remove any disc that currently may be in the Wii U disc drive
-2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+1. Extrae cualquier disco que pueda estar en la unidad de disco de la Wii U
+2. Inicia disc2app en la SysNAND usando el método correspondiente a tu instalación de Mocha CFW
 
 ###### CBHC
 
-1. Power off your Wii U
+1. Apaga tu Wii U
 2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch disc2app
+3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en SysNAND
+4. Inicia disc2app
 
 ###### Haxchi
 
-1. Hold (X) while launching your DS virtual console game to launch disc2app
+1. Mantén (X) mientras inicias tu juego de la consola virtual de DS para iniciar disc2app
 
 ###### Homebrew Launcher
 
