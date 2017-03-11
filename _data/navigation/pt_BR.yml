@@ -1,21 +1,21 @@
 ---
 main:
   - 
-    title: Guide
+    title: Guia
   - 
     title: FAQ
   - 
-    title: Donations
+    title: Doações
   - 
-    title: Credits
+    title: Créditos
   - 
     title: disc2app
   - 
     title: vWii Modding
   - 
-    title: Uninstall Mocha CFW
+    title: Desinstalar o Mocha CFW
   - 
-    title: Site Navigation
+    title: Navegação do Site
 bottom:
   - 
     title: 'For support in English, ask for help at either <a href="https://qchat.rizon.net/?channels=wiiuhacks">#wiiuhacks on Rizon IRC</a> or <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
