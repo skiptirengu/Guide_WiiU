@@ -1,5 +1,5 @@
 ---
-title: "Why Ads?" #
+title: "¿Por qué anuncios?" #
 lang: en
 permalink: /why-ads.html
 layout: single-no-ads
