@@ -1,6 +1,6 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
-lang: en
+lang: es
 permalink: /es_ES/mocha-cfw-(homebrew-launcher).html
 ---
 
