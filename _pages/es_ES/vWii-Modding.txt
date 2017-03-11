@@ -1,6 +1,6 @@
 ---
 title: "vWii Modding" #
-lang: en
+lang: es
 permalink: /es_ES/vwii-modding.html
 ---
 
