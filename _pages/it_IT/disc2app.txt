@@ -71,29 +71,29 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 
 1. Premi (A) per estrarre i file sulla scheda SD
 2. Inserisci quando richiesto il disco del quale vuoi creare un backup
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+3. Attendi che il processo di estrazione del disco finisca automaticamente; richiederà del tempo
+3. Una volta finito il processo, ritornerai al menu della SysNAND
+  + Gli utenti che hanno utilizzato CBHC potrebbero ritornare nella RedNAND
 
-##### Section III - Installing dumped game
+##### Sezione III - Installare il gioco estratto
 
-1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer - Mod Y
-4. Install the game to your desired destination
-  + Press (A) to install to the system memory
-  + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+1. Avvia la RedNAND utilizzando il metodo di tua preferenza
+2. Avvia l'Homebrew Channel nella RedNAND per avviare l'Homebrew Launcher
+3. Avvia WUP Installer - Mod Y
+4. Installa il gioco nella destinazione desiderata
+  + Premi (A) per installarlo nella memoria della console
+  + Premi (X) per installarlo nell'hard disk esterno
+5. Attendi che il processo di installazione finisca automaticamente; richiederà del tempo
+6. Una volta finito il processo, ritornerai all'Homebrew Launcher
+7. Premi (Home) per ritornare al menu della RedNAND
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+Per recuperare lo spazio della tua scheda SD utilizzato dal disco estratto, cancella la cartella `/install` della tua scheda SD
 {: .notice--info}
 
-If everything went well, you'll see your new game installed on the menu ready to be played!
+Se tutto è andato a buon fine, vedrai il tuo nuovo gioco installato nel menu HOME pronto per essere giocato!
 {: .notice--success}
 
-You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+Puoi controllare che il gioco sia stato installato nel dispositivo corretto aprendo "Gestione Dati" nelle Impostazioni della Console
 {: .notice--success}
