@@ -1,11 +1,11 @@
 ---
-title: "Donations" #
-lang: en
-permalink: /donations.html
+title: "贊助" #
+lang: zh-Hant
+permalink: /zh_TW/donations.html
 layout: single-no-ads
 ---
 
-## If you appreciate this guide, we (Plailect and FlimFlam69) accept donations.
+## 如果您喜歡本教學，我們（Plailect 和 FlimFlam69）很樂意接受捐贈。
 {: .text-center}
 {: .notice--success}
 
