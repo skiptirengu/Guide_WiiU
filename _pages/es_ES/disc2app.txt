@@ -67,7 +67,7 @@ Note that this will completely erase the contents of the external hard drive!
 1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
 2. Launch disc2app
 
-##### Section II - Using disc2app
+##### Sección II - Usando disc2app
 
 1. Press (A) to dump to the SD card
 2. Insert the disc you want to dump when prompted
