@@ -1,10 +1,10 @@
 ---
-title: "Credits" #
-lang: en
-permalink: /credits.html
+title: "製作群" #
+lang: zh-Hant
+permalink: /zh_TW/credits.html
 ---
 
-If we forgot you here, contact us and we'll add your name.
+如果我們忘記把你加進來的話，請與我們聯繫。
 {: .notice}
 
 + damysteryman
