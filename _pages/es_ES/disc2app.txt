@@ -1,6 +1,6 @@
 ---
 title: "disc2app" #
-lang: en
+lang: es
 permalink: /es_ES/disc2app.html
 ---
 
