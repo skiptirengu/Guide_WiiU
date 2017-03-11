@@ -1,6 +1,6 @@
 ---
 title: "Homebrew Launcher" #
-lang: en
+lang: es
 permalink: /es_ES/homebrew-launcher.html
 ---
 
