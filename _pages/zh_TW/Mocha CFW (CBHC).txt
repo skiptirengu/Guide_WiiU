@@ -1,77 +1,77 @@
 ---
 title: "Mocha CFW (CBHC)" #
-lang: en
-permalink: /mocha-cfw-(cbhc).html
+lang: zh-Hant
+permalink: /zh_TW/mocha-cfw-(cbhc).html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the home menu, which will then load RedNAND.
+CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修改後的 DS Virtual Console 遊戲，讓你自動開機至 RedNAND 中，而非普通的 HOME 選單。
 {: .notice}
 
-This page is optional. Regular Haxchi works just fine as is; this just offers extra convenience and removes the risk of you accidentally breaking your SysNAND.
+本節為選用章節。 正常的 Haxchi 本身就很好了；只是透過此方法將讓開機方便些，且能降低不小心弄壞 SysNAND 的風險。
 {: .notice--info}
 
-**You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!**
+**你 _必須_ 先裝好 Haxchi 才能繼續。 否則－保。證。磚。機！**
 {: .notice--danger}
 
-**Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!**
+**你的 Haxchi DS Virtual Console 遊戲 _必須_ 得先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接裝置上的話－保。證。磚。機！**
 {: .notice--danger}
 
-**Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!**
+**你的 Haxchi DS Virtual Console 遊戲 _必須_ 是正版的，否則－保。證。磚。機！**
 {: .notice--danger}
 
-#### Instructions
+#### 操作說明
 
-1. Reboot your console to be sure that you are on SysNAND.
-  + You should see the SysNAND folder on the first page of your home menu
-2. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-3. Launch the CBHC installer
-4. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-5. Read the warning that appears, then press (A) to install
-6. Once this is complete, you should be back at the home menu
-7. Reboot your Wii U
-8. If the exploit was successful, you will see a menu appear with various boot options
-9. Hover over **"Autoboot: System Menu"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
-10. Press (A) on "Boot Mocha CFW"
-11. If the exploit was successful, you should see the Mocha CFW splash screen and load to a home menu *without* the SysNAND folder
-12. Reboot your Wii U to ensure the exploit works automatically as intended
-  + You should launch into Mocha CFW and RedNAND automatically on boot (no SysNAND folder on the home menu)
-13. If you have made 100% sure that you have booted into RedNAND, you can delete the DS VC game **on RedNAND**
+1. 重啟你的主機，確保你的系統是在 SysNAND 底下運行的。
+  + 你應該會在你的 HOME 主選單的首頁看到 SysNAND 資料夾
+2. 透過 `http://loadiine.ovh`於 SysNAND 上啟動 Homebrew Launcher
+3. 啟動 CBHC installer
+4. 選擇你要安裝 CBHC 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+  + **所選的遊戲 _必須_ 要先裝好 Haxchi 才能繼續**
+5. 讀完警示，並按下「A」鍵安裝
+6. 完成後，你將會回到 HOME 主選當中
+7. 重新啟動你的 Wii U
+8. 如果漏洞順利執行，你將會看到各種選項的開機選單
+9. 將游標移至**「Autoboot: System Menu」**上，並按「A」鍵直到選項變為**「Autoboot: Mocha CFW」**為止
+10. 在「Boot Mocha CFW」上按下「A」鍵
+11. 如果漏洞順利執行，你應該會看到 Mocha CFW 的開機畫面並開機至*沒有* SysNAND 資料夾的 HOME 主選單中
+12. 重啟你的 Wii U 以確保漏洞仍能自動執行
+  + 你的裝置應該會自動開機至 Mocha CFW 及 RedNAND 中（HOME 主選單上不應該有 SysNAND 資料夾出現）
+13. 如果你 100% 確定你現在是在 RedNAND 底下，你可以在 **RedNAND 中**把修改後的 DS Virtual Console 遊戲刪除了
 
 ___
 
-Your Wii U should now automatically launch into Mocha CFW and RedNAND on boot.
+你的 Wii U 現在應該在開機時都會自動進入到 Mocha CFW 及 RedNAND 下。
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+只要你在 HOME 主選單中沒看到 SysNAND 資料夾就代表你現在是在 RedNAND 模式底下。
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can hold (Home) on boot to access the CBHC boot options menu. This is what each of the boot options do:**
+**你可以在開機時按住「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：**
 
-    + Boot System Menu -> Boots into SysNAND
-    + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-    + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
-    + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-    + Boot vWii System Menu -> Boots into vWii on SysNAND
-    + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
+    + Boot System Menu -> 開機至 SysNAND
+    + Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
+    + Boot Mocha CFW -> 開機至 RedNAND 的 Mocha CFW 中
+    + Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
+    + Boot vWii System Menu -> 開機至 SysNAND 的 vWii 中
+    + Boot vWii Homebrew Channel -> 開機至 SysNAND vWii 的 Homebrew Channel 中
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. All vWii functions will be unusable on RedNAND.
+如果你想要使用 vWii，你必須從 SysNAND 或 CBHC 開機選單中啟動 vWii。 所有 vWii 的功能將無法再 RedNAND 底下使用。
 {: .notice--warning}
 
 {% capture notice-2 %}
-**Never modify or delete the CBHC DS virtual console game on SysNAND or you will BRICK.**    
-**This includes reinstalling it from the eShop on SysNAND or running the standard Haxchi installer on SysNAND!**
+**千萬不要在 SysNAND 上修改或刪除 CBHC 改後的 DS Virtual Console，否則－保。證。磚。機。**    
+**這包括在 SysNAND 中透過 eShop 重新下載那個遊戲或在 SysNAND 中運行 Haxchi 安裝器！**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
 
-**Do not connect your SysNAND to the internet. Any future system update could BRICK your device if it is allowed to be installed to SysNAND!**
+**千萬不要在 SysNAND 中連網。 在 SysNAND 中進行任何系統更新都有可能造成磚機！**
 {: .notice--danger}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
 {: .notice--primary}
