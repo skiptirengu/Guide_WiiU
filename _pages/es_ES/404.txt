@@ -1,11 +1,11 @@
 ---
-title: "Page Not Found" #
-lang: en
-permalink: /404.html
+title: "Página No Encontrada"
+lang: es
+permalink: /es_ES/404.html
 layout: single-no-ads
-excerpt: "Page not found. Your pixels are in another canvas." #
+excerpt: "Página no encontrada. Tus píxeles están en otro lienzo." #
 sitemap: false
 ---
 
-### Sorry, but the page you were trying to view does not exist.
+### Lo sentimos, la página que intentas ver no existe.
 {: .text-center}
