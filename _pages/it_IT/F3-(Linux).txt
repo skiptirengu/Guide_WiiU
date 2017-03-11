@@ -1,10 +1,10 @@
 ---
 title: "F3 (Linux)" #
-lang: en
-permalink: /f3-(linux).html
+lang: it
+permalink: /it_IT/f3-(linux).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using F3.
+Questa pagina ti guiderà nel processo di controllo della presenza di errori sulla tua scheda SD utilizzando F3.
 {: .notice}
 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
